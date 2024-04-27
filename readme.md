@@ -23,3 +23,7 @@
 # 数学上 5 = x 和 x = 5 是等价的, 但是在编程语言中不是
 x = 5
 ```
+
+极坐标(polar coordinates)和笛卡尔坐标(Cartesian coordinates)的转换
+
+Python 不使用角度,而是用弧度(radian)替代
