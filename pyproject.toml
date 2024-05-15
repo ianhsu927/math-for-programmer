@@ -2,7 +2,7 @@
 name = "math-for-programmer"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["ianhsu <ian927@qq.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -12,6 +12,7 @@ numpy = "^1.26.4"
 jupyterlab-language-pack-zh-cn = "^4.1.post2"
 jupyter-lsp = "^2.2.5"
 jupyterlab-lsp = "^5.1.0"
+matplotlib = "3.4.3"
 
 
 [[tool.poetry.source]]
