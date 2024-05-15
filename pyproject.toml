@@ -6,14 +6,18 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.9"
 jupyterlab = "^4.2.0"
-matplotlib = "^3.8.4"
 numpy = "^1.26.4"
 jupyterlab-language-pack-zh-cn = "^4.1.post2"
 jupyter-lsp = "^2.2.5"
 jupyterlab-lsp = "^5.1.0"
 
+
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+priority = "primary"
 
 [build-system]
 requires = ["poetry-core"]
