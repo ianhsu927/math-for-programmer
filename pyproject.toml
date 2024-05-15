@@ -10,6 +10,9 @@ python = "^3.12"
 jupyterlab = "^4.2.0"
 matplotlib = "^3.8.4"
 numpy = "^1.26.4"
+jupyterlab-language-pack-zh-cn = "^4.1.post2"
+jupyter-lsp = "^2.2.5"
+jupyterlab-lsp = "^5.1.0"
 
 
 [build-system]

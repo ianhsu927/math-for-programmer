@@ -1065,6 +1065,32 @@ test = ["coverage", "pytest (>=7.0)", "pytest-check-links (>=0.7)", "pytest-cons
 upgrade-extension = ["copier (>=8,<10)", "jinja2-time (<0.3)", "pydantic (<2.0)", "pyyaml-include (<2.0)", "tomli-w (<2.0)"]
 
 [[package]]
+name = "jupyterlab-language-pack-zh-cn"
+version = "4.1.post2"
+description = "JupyterLab Chinese (Simplified, China) Language Pack"
+optional = false
+python-versions = "*"
+files = [
+    {file = "jupyterlab_language_pack_zh_cn-4.1.post2-py2.py3-none-any.whl", hash = "sha256:b2816918ba97f1e14af2c6ec7705055574a6a5e88a0f94f2d117eff5c7735fc1"},
+    {file = "jupyterlab_language_pack_zh_cn-4.1.post2.tar.gz", hash = "sha256:8ba79fd43a9632efa61986bc806699afcf993829bfc0b7b5e3236185d64e55ab"},
+]
+
+[[package]]
+name = "jupyterlab-lsp"
+version = "5.1.0"
+description = "Coding assistance for JupyterLab with Language Server Protocol"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "jupyterlab-lsp-5.1.0.tar.gz", hash = "sha256:aeac84093ada6d20ef57ae0e97811cc5796a0cab7237b32f8eddf993c0bb0356"},
+    {file = "jupyterlab_lsp-5.1.0-py3-none-any.whl", hash = "sha256:290f473b001c7ebe1edfe391a545f50bc4aefe89d4a64db4f17e8de301db3a37"},
+]
+
+[package.dependencies]
+jupyter-lsp = ">=2.0.0"
+jupyterlab = ">=4.1.0,<5.0.0a0"
+
+[[package]]
 name = "jupyterlab-pygments"
 version = "0.3.0"
 description = "Pygments theme using JupyterLab CSS variables"
@@ -2424,4 +2450,4 @@ test = ["websockets"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "5cdf5b5b2eb02bcfc486b5d0d1874c16e6a7051671443e19043ea2c80ffb26b4"
+content-hash = "34ba9d0538926691152e1a469268353b351519591d6f1f8b63e19f6e29a176b7"
